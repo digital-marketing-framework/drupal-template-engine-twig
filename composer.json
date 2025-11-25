@@ -1,0 +1,45 @@
+{
+    "name": "digital-marketing-framework/drupal-template-engine-twig",
+    "description": "Anyrel - Twig Template Engine - Drupal Integration",
+    "license": "GPL-2.0-or-later",
+    "type": "drupal-module",
+    "keywords": [
+        "drupal",
+        "module",
+        "marketing",
+        "framework",
+        "template",
+        "twig"
+    ],
+    "authors": [
+        {
+            "name": "Mediatis AG",
+            "email": "info@mediatis.de",
+            "homepage": "https://www.mediatis.de",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://www.mediatis.de",
+    "require": {
+        "php": "^8.1",
+        "digital-marketing-framework/template-engine-twig": "*",
+        "digital-marketing-framework/drupal-core": "*",
+        "drupal/core": "^10.0 || ^11.0",
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\dmf_template_engine_twig\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "installer-name": "dmf_template_engine_twig"
+    }
+}

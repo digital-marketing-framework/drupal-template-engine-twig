@@ -1,0 +1,5 @@
+services:
+  dmf_template_engine_twig.core_registry_update_event_subscriber:
+    class: Drupal\dmf_template_engine_twig\Registry\EventSubscriber\CoreRegistryUpdateEventSubscriber
+    tags:
+      - { name: event_subscriber }

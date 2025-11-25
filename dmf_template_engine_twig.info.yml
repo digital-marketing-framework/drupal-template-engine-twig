@@ -1,0 +1,7 @@
+name: 'Anyrel - Template Engine Twig'
+type: module
+description: 'Anyrel Twig template engine integration for Drupal'
+package: 'Anyrel'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - dmf_core:dmf_core
