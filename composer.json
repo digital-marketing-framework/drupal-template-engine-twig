@@ -22,8 +22,8 @@
     "homepage": "https://www.mediatis.de",
     "require": {
         "php": "^8.1",
-        "digital-marketing-framework/template-engine-twig": "*",
-        "digital-marketing-framework/drupal-core": "*",
+        "digital-marketing-framework/template-engine-twig": "^3.0",
+        "digital-marketing-framework/drupal-core": "^1.0",
         "drupal/core": "^10.0 || ^11.0",
         "composer/installers": "^1.0 || ^2.0"
     },
