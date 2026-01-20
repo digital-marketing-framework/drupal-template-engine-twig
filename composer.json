@@ -39,9 +39,9 @@
         "sort-packages": true
     },
     "extra": {
-        "installer-name": "dmf_template_engine_twig",
         "branch-alias": {
             "dev-main": "1.x-dev"
-        }
+        },
+        "installer-name": "dmf_template_engine_twig"
     }
 }
